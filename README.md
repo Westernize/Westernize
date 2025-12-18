@@ -25,7 +25,13 @@
   
   → 카카오맵 API, OpenWeatherMap API, ChatGPT API 활용 프로젝트
 
+- 🎓 **[진로 상담 챗봇 데모](https://sndcrmlaumvjkrcltxho5i.streamlit.app/)**
+  
+  → Streamlit과 OpenAI GPT API를 활용한 진로 상담 챗봇
+
 - 🏠 **[GitHub 프로필](https://github.com/Westernize)**
+
+- 📊 **[GitHub 통계 및 활동](https://github.com/Westernize)**
 
 ## Profile
 이름 : 이 희찬 (Lee Heechan)
