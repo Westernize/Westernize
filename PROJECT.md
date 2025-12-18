@@ -133,6 +133,95 @@ C++로 개발된 지뢰찾기, 타자게임을 플레이할 수 있는 시스템
 
 ---
 
+## 🎓 진로 상담 챗봇
+
+<div align="left">
+
+**📅 개발 기간:** 2024.05 ~ 2024.06  
+**👥 인원 구성:** 2명  
+**🔗 GitHub:** [https://github.com/Westernize/Jinlo](https://github.com/Westernize/Jinlo)  
+**🔗 데모사이트:** [https://sndcrmlaumvjkrcltxho5i.streamlit.app/](https://sndcrmlaumvjkrcltxho5i.streamlit.app/)
+
+### 📝 프로젝트 개요
+
+Streamlit과 OpenAI GPT API를 활용하여 개발한 진로 상담 챗봇입니다. 실제 상담 데이터를 기반으로 사용자의 관심 분야, 성향, 환경 등을 분석하여 적절한 직업을 추천합니다.
+
+### 🎯 개발 목표
+
+- 상담 데이터를 기반으로 한 진로 추천 프로세스를 자동화
+- GPT를 활용한 자연스러운 상담 시나리오 구성
+- 사용자 질문 → 답변 → 직업 추천 → 대화 기록 저장의 전체 흐름 구현
+
+### 🛠️ 기술 스택
+
+- **Language:** Python 3.9+
+- **Framework:** Streamlit
+- **API:** OpenAI API (GPT-3.5, GPT-4)
+- **Library:** pandas, JSON, pytz
+- **Tools:** 파일 입출력, ZIP 처리
+
+### ✨ 핵심기술 구현
+
+#### 데이터 처리
+- ✅ ZIP 데이터 자동 처리 (상담 데이터가 들어 있는 ZIP 파일 자동 해제 및 JSON 파싱)
+- ✅ 상담 데이터 구조 분석 및 파싱
+
+#### 챗봇 기능
+- ✅ GPT 진로 상담 (GPT-3.5 또는 GPT-4 기반 대화형 질문 시퀀스)
+- ✅ 자연스러운 상담 시나리오 구성
+- ✅ 사용자 응답 기반 다음 질문 생성
+
+#### 직업 추천 시스템
+- ✅ 입력된 관심 분야, 성향, 환경 기반으로 간단한 로직으로 직업 추천
+- ✅ 상담 데이터 기반 직업 카테고리 분류 (기술계열, 서비스계열, 생산계열, 사무계열)
+
+#### 사용자 인터페이스
+- ✅ Streamlit으로 간단하고 직관적인 웹 UI 구성
+- ✅ 대화형 인터페이스 구현
+
+#### 데이터 저장
+- ✅ 대화 기록 저장 (상담 종료 시 conversation_history.txt에 전체 대화 저장)
+- ✅ 로컬 시간 출력 처리 (pytz, Asia/Seoul)
+
+### 💡 주요 성과
+
+- OpenAI GPT API를 활용한 챗봇 개발 경험
+- Streamlit을 활용한 웹 애플리케이션 개발 역량 강화
+- 데이터 처리 및 JSON 파싱 경험
+- 사용자 중심의 대화형 인터페이스 설계 경험
+- 실제 상담 데이터를 활용한 실용적인 서비스 개발
+
+### 📁 프로젝트 구조
+
+```
+📦 프로젝트 루트
+├── jinlo.py                    # Streamlit 메인 앱
+├── requirements.txt            # 의존성 패키지
+├── 📁 jinlo/                    # 상담 데이터 위치
+│   ├── TL_01. 학교급_03. 고등.zip
+│   ├── TL_02. 추천직업 카테고리_01. 기술계열.zip
+│   ├── TL_02. 추천직업 카테고리_02. 서비스계열.zip
+│   ├── TL_02. 추천직업 카테고리_03. 생산계열.zip
+│   ├── TL_02. 추천직업 카테고리_04. 사무계열.zip
+│   ├── TS_01. 학교급_03. 고등.zip
+│   └── 📁 (자동 생성된 압축 해제 폴더들)
+└── conversation_history.txt    # 상담 종료 시 생성되는 대화 로그
+```
+
+### 🎯 상담 흐름 예시
+
+1. Q1. 진로 상담을 받고 싶은 이유는 무엇인가요?
+2. Q2. 어떤 분야에 관심이 있으신가요? (예: 기술, 서비스, 생산, 사무)
+3. Q3. 어떤 일을 할 때 가장 즐거우셨나요?
+4. Q4. 주로 어떤 능력을 발휘하고 싶으신가요? (기술적 능력, 대인관계 등)
+5. Q5. 원하는 직업의 근무 환경은 어떤가요? (실내, 실외 등)
+
+입력된 응답을 바탕으로 예를 들어 "기술", **"코딩이 즐겁다"**는 응답을 입력하면 → 소프트웨어 개발자 추천
+
+</div>
+
+---
+
 ## ✈️ 항공권 예약 시스템
 
 <div align="left">
@@ -313,8 +402,9 @@ Java Servlet & JSP + Oracle Database 기반의 항공권 예약 시스템입니�
 | 프로젝트명 | 기간 | 인원 | 주요 기술 | 역할 | GitHub |
 |-----------|------|------|----------|------|--------|
 | 미니게임천국 | 2023.10 ~ 2023.12 | 4명 | C++, MySQL, GCP | UI/UX, 테스트, 통합 (25%) | [🔗](https://github.com/Westernize/cpp-minigame-score) |
+| 진로 상담 챗봇 | 2024.05 ~ 2024.06 | 2명 | Streamlit, OpenAI API, Python | 챗봇 개발, 데이터 처리 | [🔗](https://github.com/Westernize/Jinlo) |
 | 날씨 기반 여행 웹사이트 | 2024.09 ~ 2024.12 | 2명 | HTML, CSS, JS, API | 핵심기술 담당 (90%) | [🔗](https://github.com/Westernize/WeatherTrip) |
-| 항공권 예약 시스템 | 2025.09 ~ 2025.10 | 3명 | Java Servlet, JSP, Oracle | 전체 개발 | [🔗](https://github.com/Westernize/AirProject) |
+| 항공권 예약 시스템 | 2025.09 | 개인 | Java Servlet, JSP, Oracle | 전체 개발 | [🔗](https://github.com/Westernize/AirProject) |
 | 전기차 충전소 예약 시스템 | 2025.10 ~ 2025.11 | 2명 | Spring Boot, MySQL, Iamport | 인증, 지도, 예약, 결제, UI | [🔗](https://github.com/Westernize/EV_HUB) |
 | AI 드론 산불 감지 시스템 | 2025 | 연구 | YOLO, Python, AI 드론 | 연구 및 개발 | - |
 
