@@ -27,8 +27,6 @@
 
 - 🏠 **[GitHub 프로필](https://github.com/Westernize)**
 
-- 📊 **[GitHub 통계 및 활동](https://github.com/Westernize)**
-
 ## Profile
 이름 : 이 희찬 (Lee Heechan)
 
