@@ -15,7 +15,8 @@
 **📅 개발 기간:** 2023.10.18 ~ 2023.12.13  
 **👥 인원 구성:** 4명  
 **🎯 담당 역할:** 사용자 인터페이스 및 디자인 작업, 발표 준비, 게임 기능 테스트 및 오류 수정, 팀 내 기능 연동 및 전체 시스템 검토 (25%)  
-**🏆 수상 내역:** SW 경진대회 대상 (2023, 남서울대학교 컴퓨터소프트웨어학과)
+**🏆 수상 내역:** SW 경진대회 대상 (2023, 남서울대학교 컴퓨터소프트웨어학과)  
+**🔗 GitHub:** [https://github.com/Westernize/cpp-minigame-score](https://github.com/Westernize/cpp-minigame-score)
 
 ### 📝 프로젝트 개요
 
@@ -72,7 +73,8 @@ C++로 개발된 지뢰찾기, 타자게임을 플레이할 수 있는 시스템
 **📅 개발 기간:** 2024.09.01 ~ 2024.12.12  
 **👥 인원 구성:** 2명  
 **🎯 담당 역할:** 실행계획(핵심기술) 담당 (90%)  
-**🔗 데모사이트:** [https://parksoyun1023.github.io/service2_PL/](https://parksoyun1023.github.io/service2_PL/)
+**🔗 데모사이트:** [https://parksoyun1023.github.io/service2_PL/](https://parksoyun1023.github.io/service2_PL/)  
+**🔗 GitHub:** [https://github.com/Westernize/WeatherTrip](https://github.com/Westernize/WeatherTrip)
 
 ### 📝 프로젝트 개요
 
@@ -137,7 +139,8 @@ C++로 개발된 지뢰찾기, 타자게임을 플레이할 수 있는 시스템
 
 **📅 개발 기간:** 2025.09.01 ~ 2025.09.18  
 **👥 인원 구성:** 개인 프로젝트  
-**🎯 담당 역할:** 예약/회원 관리, 관리자(Admin) 기능 구현
+**🎯 담당 역할:** 예약/회원 관리, 관리자(Admin) 기능 구현  
+**🔗 GitHub:** [https://github.com/Westernize/AirProject](https://github.com/Westernize/AirProject)
 
 ### 📝 프로젝트 개요
 
@@ -187,7 +190,8 @@ Java Servlet & JSP + Oracle Database 기반의 항공권 예약 시스템입니�
 
 **📅 개발 기간:** 2025.10.18 ~ 2025.11.18  
 **👥 인원 구성:** 2명  
-**🎯 담당 역할:** 사용자 인증, 지도(마커, 클러스터), 예약, 결제 (Iamport), UI
+**🎯 담당 역할:** 사용자 인증, 지도(마커, 클러스터), 예약, 결제 (Iamport), UI  
+**🔗 GitHub:** [https://github.com/Westernize/EV_HUB](https://github.com/Westernize/EV_HUB)
 
 ### 📝 프로젝트 개요
 
@@ -306,13 +310,13 @@ Java Servlet & JSP + Oracle Database 기반의 항공권 예약 시스템입니�
 
 ## 📊 프로젝트 요약
 
-| 프로젝트명 | 기간 | 인원 | 주요 기술 | 역할 |
-|-----------|------|------|----------|------|
-| 미니게임천국 | 2023.10 ~ 2023.12 | 4명 | C++, MySQL, GCP | UI/UX, 테스트, 통합 (25%) |
-| 날씨 기반 여행 웹사이트 | 2024.09 ~ 2024.12 | 2명 | HTML, CSS, JS, API | 핵심기술 담당 (90%) |
-| 항공권 예약 시스템 | 2025.09 | 개인 | Java Servlet, JSP, Oracle | 전체 개발 |
-| 전기차 충전소 예약 시스템 | 2025.10 ~ 2025.11 | 2명 | Spring Boot, MySQL, Iamport | 인증, 지도, 예약, 결제, UI |
-| AI 드론 산불 감지 시스템 | 2025 | 연구 | YOLO, Python, AI 드론 | 연구 및 개발 |
+| 프로젝트명 | 기간 | 인원 | 주요 기술 | 역할 | GitHub |
+|-----------|------|------|----------|------|--------|
+| 미니게임천국 | 2023.10 ~ 2023.12 | 4명 | C++, MySQL, GCP | UI/UX, 테스트, 통합 (25%) | [🔗](https://github.com/Westernize/cpp-minigame-score) |
+| 날씨 기반 여행 웹사이트 | 2024.09 ~ 2024.12 | 2명 | HTML, CSS, JS, API | 핵심기술 담당 (90%) | [🔗](https://github.com/Westernize/WeatherTrip) |
+| 항공권 예약 시스템 | 2025.09 ~ 2025.10 | 3명 | Java Servlet, JSP, Oracle | 전체 개발 | [🔗](https://github.com/Westernize/AirProject) |
+| 전기차 충전소 예약 시스템 | 2025.10 ~ 2025.11 | 2명 | Spring Boot, MySQL, Iamport | 인증, 지도, 예약, 결제, UI | [🔗](https://github.com/Westernize/EV_HUB) |
+| AI 드론 산불 감지 시스템 | 2025 | 연구 | YOLO, Python, AI 드론 | 연구 및 개발 | - |
 
 ---
 
